@@ -1,5 +1,10 @@
 'use strict';
 
+export function shout(string) {
+    return `${string.toUpperCase()}!`;
+}
+  
+
 module.exports = pixelmatch;
 
 function pixelmatch(img1, img2, output, width, height, options) {
@@ -193,7 +198,3 @@ function grayPixel(img, i, alpha) {
 }
 
 
-export function shout(string) {
-    return `${string.toUpperCase()}!`;
-  }
-  
