@@ -15,6 +15,7 @@
   </head>
   <body>
     <h2>Hello from surfmuggle</h2>
+    <button onclick="callFromModule()">Click Me</button>
   <script type="text/javascript">
    function autorun()
    {
@@ -24,5 +25,8 @@
    else if (document.attachEvent) document.attachEvent("onreadystatechange", autorun);
    else window.onload = autorun;
   </script>
+  <script type="module" src="./libs/pixelmatch.js"></script>
+  <script src="./js/main.js"></script>
+  <script nomodule src="fallback.js"></script>
   </body>
 </html>
