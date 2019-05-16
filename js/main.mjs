@@ -8,3 +8,4 @@ function callFromModule(){
 
 }
 
+document.querySelector('button.js-shout').addEventListener('click', callFromModule);

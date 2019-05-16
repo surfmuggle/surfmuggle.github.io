@@ -11,12 +11,10 @@
     <link rel="stylesheet" href="style.css" type="text/css">    
     <link rel="icon" href="data:;base64,iVBORw0KGgo=">
     <style type="text/css">
-   
+        
     </style>
   </head>
   <body>
-    <h2>Hello from surfmuggle</h2>
-    <button onclick="callFromModule()">Click Me</button>
   <script type="text/javascript">
    function autorun()
    {
@@ -25,10 +23,16 @@
    if (document.addEventListener) document.addEventListener("DOMContentLoaded", autorun, false);
    else if (document.attachEvent) document.attachEvent("onreadystatechange", autorun);
    else window.onload = autorun;
+
+
   </script>
-  <script type="module" src="./libs/pixelmatch.mjs"></script>
-  <script type="module" src="./libs/shout.mjs"></script>
-  <script src="./js/main.js"></script>
-  <script nomodule src="fallback.js"></script>
+
+    <h2>Hello from surfmuggle</h2>
+    <button class="js-shout">Click Me</button>
+  
+    <script type="module" src="./libs/pixelmatch.mjs"></script>
+    <script type="module" src="./libs/shout.mjs"></script>
+    <script type="module" src="./js/main.mjs"></script>
+    <script nomodule src="fallback.js"></script>
   </body>
 </html>
