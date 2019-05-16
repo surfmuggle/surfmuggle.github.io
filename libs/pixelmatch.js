@@ -1,14 +1,3 @@
-'use strict';
-
-
-module.exports = shout;
-module.exports = pixelmatch;
-
-function shout(string) {
-    return `${string.toUpperCase()}!`;
-}
-  
-
 
 
 function pixelmatch(img1, img2, output, width, height, options) {
@@ -202,3 +191,5 @@ function grayPixel(img, i, alpha) {
 }
 
 
+
+export { pixelmatch };
