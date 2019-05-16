@@ -1,11 +1,15 @@
 'use strict';
 
-export function shout(string) {
+
+module.exports = shout;
+module.exports = pixelmatch;
+
+function shout(string) {
     return `${string.toUpperCase()}!`;
 }
   
 
-module.exports = pixelmatch;
+
 
 function pixelmatch(img1, img2, output, width, height, options) {
 
