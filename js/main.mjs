@@ -5,8 +5,8 @@ import { shout } from '../libs/shout.mjs';
 function callFromModule(){
  
 
-    var img1 = document.getElementById("img1");
-    var img2 = document.getElementById("img2");
+    var imgBefore = document.getElementById("imgBefore");
+    var imgAfter = document.getElementById("imgAfter");
     // const canvas = document.getElementById("cnv3");
     // const ctx = canvas.getContext('2d');
     // ctx.rect(10, 10, 100, 100);
@@ -16,12 +16,12 @@ function callFromModule(){
 
     
     var diffImage = document.createElement("img");
-    diffImage.height = img1.height
-    diffImage.width = img1.width
+    diffImage.height = imgBefore.height
+    diffImage.width = imgBefore.width
 
     
 
-    pixelmatch(img1.data, img2.data, diffImage.data, img1.width, img1.height, {threshold: 0.1});
+    pixelmatch(imgBefore.data, imgBefore.data, diffImage.data, imgBefore.width, imgBefore.height, {threshold: 0.1});
 
     const resultBox = document.getElementById("resultBox");
     resultBox.appendChild(diffImage);
