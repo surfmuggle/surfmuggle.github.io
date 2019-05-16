@@ -7,3 +7,5 @@ function callFromModule(){
     alert(shout("what are you doing? I am shouting!"));
 
 }
+
+export {  callFromModule };
