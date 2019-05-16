@@ -8,4 +8,3 @@ function callFromModule(){
 
 }
 
-export {  callFromModule };
