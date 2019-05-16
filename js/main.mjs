@@ -21,7 +21,7 @@ function callFromModule(){
 
     
 
-    pixelmatch(imgBefore.data, imgBefore.data, diffImage.data, imgBefore.width, imgBefore.height, {threshold: 0.1});
+    pixelmatch(imgBefore.data, imgAfter.data, diffImage.data, imgBefore.width, imgBefore.height, {threshold: 0.1});
 
     const resultBox = document.getElementById("resultBox");
     resultBox.appendChild(diffImage);
