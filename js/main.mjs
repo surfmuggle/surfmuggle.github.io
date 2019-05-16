@@ -1,5 +1,5 @@
-import { pixelmatch } from '../libs/pixelmatch.js';
-import { shout } from '../libs/shout.js';
+import { pixelmatch } from '../libs/pixelmatch.mjs';
+import { shout } from '../libs/shout.mjs';
 
 
 function callFromModule(){
