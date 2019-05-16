@@ -3,8 +3,8 @@ import { shout } from '../libs/shout.mjs';
 
 
 function callFromModule(){
- 
 
+    
     var imgBefore = document.getElementById("imgBefore");
     var imgAfter = document.getElementById("imgAfter");
     // const canvas = document.getElementById("cnv3");
