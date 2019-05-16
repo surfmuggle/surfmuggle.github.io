@@ -1,4 +1,4 @@
-import {pixelmatch, shout} from '../libs/pixelmatch.js';
+import { pixelmatch } from '../libs/pixelmatch.js';
 import { shout } from '../libs/shout.js';
 
 
