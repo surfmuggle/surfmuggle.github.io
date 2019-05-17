@@ -1,12 +1,13 @@
 import { pixelmatch } from '../libs/pixelmatch.mjs';
 import { shout } from '../libs/shout.mjs';
 
-function createCanvasFromImage(imageId)
+function getCanvasContextFromImage(imageId)
 {
     const img = document.getElementById(imageId);
     let cnv = document.createElement("canvas");
-    cnv.getContext("2d").drawImage(img,0,0);
-    return cnv;
+    let ctx = cnv.getContext("2d")
+    ctx.drawImage(img,0,0);
+    return ctx;
 }
 
 
@@ -16,10 +17,11 @@ function callFromModule()
     const cnvResult = document.getElementById('cnvResult');
     const cnvResultCtx = cnvResult.getContext('2d');
     
-    let cnv1 = createCanvasFromImage("imgBefore");
-    let cnv2 = createCanvasFromImage("imgAfter");
+    let ctx1 = getCanvasContextFromImage("imgBefore");
+    let ctx2 = getCanvasContextFromImage("imgAfter");
+    ctx1.height    
             
-    pixelmatch(cnv1.data, cnv2.data, cnvResultCtx.data, cnv1.width, cnv1.height, {threshold: 0.1});
+    pixelmatch(ctx1.data, ctx2.data, cnvResultCtx.data, ctx1.width, ctx1.height, {threshold: 0.1});
 
     const resultBox = document.getElementById("resultBox");
     resultBox.appendChild(diffImage);
