@@ -1,35 +1,30 @@
 import { pixelmatch } from '../libs/pixelmatch.mjs';
 import { shout } from '../libs/shout.mjs';
 
+function createCanvasFromImage(imageId)
+{
+    const img = document.getElementById(imageId);
+    let cnv = document.createElement("canvas");
+    cnv.getContext("2d").drawImage(img,0,0);
+    return cnv;
+}
 
-function callFromModule(){
 
+function callFromModule()
+{
+
+    const cnvResult = document.getElementById('cnvResult');
+    const cnvResultCtx = cnvResult.getContext('2d');
     
-    var imgBefore = document.getElementById("imgBefore");
-    var imgAfter = document.getElementById("imgAfter");
-
-    console.log("imgBefore.id:",  imgBefore.id, "imgAfter.id:", imgAfter.id)
-    // const canvas = document.getElementById("cnv3");
-    // const ctx = canvas.getContext('2d');
-    // ctx.rect(10, 10, 100, 100);
-    // ctx.fill();
-    // let imageData = ctx.getImageData(60, 60, 200, 100);
-    // ctx.putImageData(imageData, 150, 10);
-
-    
-    var diffImage = document.createElement("img");
-    diffImage.height = imgBefore.height
-    diffImage.width = imgBefore.width
-
-    
-
-    pixelmatch(imgBefore.data, imgAfter.data, diffImage.data, imgBefore.width, imgBefore.height, {threshold: 0.1});
+    let cnv1 = createCanvasFromImage("imgBefore");
+    let cnv2 = createCanvasFromImage("imgAfter");
+            
+    pixelmatch(cnv1.data, cnv2.data, cnvResultCtx.data, cnv1.width, cnv1.height, {threshold: 0.1});
 
     const resultBox = document.getElementById("resultBox");
     resultBox.appendChild(diffImage);
 
     // ctx3.putImageData(diff, 0, 0);
-
      
     // var numDiffPixels = pixelmatch(img1, img2, diff, 800, 600, {threshold: 0.1});
 
