@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-/* eslint-disable no-process-exit */
 /* 
 
   taken from https://github.com/mapbox/pixelmatch 
@@ -23,41 +21,45 @@
 
 'use strict';
 
-const PNG = require('pngjs').PNG;
-const fs = require('fs');
-const match = require('../.');
 
-if (process.argv.length < 4) {
-    console.log('Usage: imagematch image1.png image2.png [diff.png] [threshold=0.005] [includeAA=false]');
-    process.exit(64);
+
+
+function getCanvasContextFromImage(imageId)
+{
+    const img = document.getElementById(imageId);
+    let cnv = document.createElement("canvas");
+    let ctx = cnv.getContext("2d")
+    ctx.drawImage(img,0,0);
+    return ctx;
 }
 
-const [,, img1Path, img2Path, diffPath, threshold, includeAA] = process.argv;
-const options = {
-    threshold: +threshold,
-    includeAA: includeAA !== undefined && includeAA !== 'false'
-};
 
-const img1 = PNG.sync.read(fs.readFileSync(img1Path));
-const img2 = PNG.sync.read(fs.readFileSync(img2Path));
+function callFromModule()
+{
 
-const {width, height} = img1;
+    const cnvResult = document.getElementById('cnvResult');
+    const cnvResultCtx = cnvResult.getContext('2d');
+    
+    let ctx1 = getCanvasContextFromImage("imgBefore");
+    let ctx2 = getCanvasContextFromImage("imgAfter");
+    ctx1.height    
+            
+    pixelmatch(ctx1.data, ctx2.data, cnvResultCtx.data, ctx1.width, ctx1.height, {threshold: 0.1});
 
-if (img2.width !== width || img2.height !== height) {
-    console.log(`Image dimensions do not match: ${width}x${height} vs ${img2.width}x${img2.height}`);
-    process.exit(65);
+    const resultBox = document.getElementById("resultBox");
+    resultBox.appendChild(diffImage);
+
+    // ctx3.putImageData(diff, 0, 0);
+     
+    // var numDiffPixels = pixelmatch(img1, img2, diff, 800, 600, {threshold: 0.1});
+
+
+    // pixelmatch(img1, img2, output, width, height[, options])
+    // img1, img2 — Image data of the images to compare (Buffer or Uint8Array). 
+    // Note: image dimensions must be equal.
+    // output — Image data to write the diff to, or null if don't need a diff image.
+    // width, height — Width and height of the images. Note that all three images need to have the same dimensions.
+
+
 }
-
-const diff = diffPath ? new PNG({width, height}) : null;
-
-console.time('matched in');
-const diffs = match(img1.data, img2.data, diff ? diff.data : null, width, height, options);
-console.timeEnd('matched in');
-
-console.log(`different pixels: ${diffs}`);
-console.log(`error: ${Math.round(100 * 100 * diffs / (width * height)) / 100}%`);
-
-if (diff) {
-    fs.writeFileSync(diffPath, PNG.sync.write(diff));
-}
-process.exit(diffs ? 66 : 0);
+document.querySelector('button.js-shout').addEventListener('click', callFromModule);
