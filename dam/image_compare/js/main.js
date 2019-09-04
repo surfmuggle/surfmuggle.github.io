@@ -1,5 +1,4 @@
-import { pixelmatch } from '../libs/pixelmatch.mjs';
-import { shout } from '../libs/shout.mjs';
+import { pixelmatch } from '../libs/pixelmatch.js';
 
 function getCanvasContextFromImage(imageId)
 {
