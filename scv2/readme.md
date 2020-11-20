@@ -1,11 +1,14 @@
 
 # Are masks effective
 
+In the video  [How Well Do Face Masks Protect us from COVID-19 Infection? By How Much Is the Risk Reduced if Only One Person Is Wearing a Mask?][0]   [Dr Julian Tag][ajt] cited the articles listed below. 
+
 |  Articles  |
 |  :----|
 |   [RR619 Evaluating the protection afforded by surgical masks against influenza bioaerosols (2008)][1]    |
 |   [Influenza Virus Aerosols in Human Exhaled Breath: Particle Size, Culturability, and Effect of Surgical Masks (2013)][2]    |
-|      |
+|   ... more to come   |
+
 
 
 ## Extract from [RR619 Evaluating the protection afforded by surgical masks against influenza bioaerosols (2008)][1] 
@@ -25,7 +28,7 @@ The CDC recommends that healthcare settings provide influenza patients with face
  * [Dr Julian Tang][ajt] works on the use of 3D printed polyvinyl acetate strips in surgical masks to trap exhaled pathogens – including respiratory viruses. Currently, these masks are being developed for use in detecting SARS-CoV-2 in suspected COVID-19 patients before and as their symptoms develop ([source][ajt]).
 
 
-
+[0]: https://www.vumedi.com/video/how-well-do-face-masks-protect-us-from-covid-19-infection-by-how-much-is-the-risk-reduced-if-only-on/
 [1]: https://www.hse.gov.uk/research/rrpdf/rr619.pdf
 [2]: https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1003205
 [ajt]: https://le.ac.uk/research/coronavirus/dr-julian-tang
