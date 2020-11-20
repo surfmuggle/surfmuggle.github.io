@@ -1,7 +1,7 @@
 
 # Are masks effective
 
-In the video  [How Well Do Face Masks Protect us from COVID-19 Infection? By How Much Is the Risk Reduced if Only One Person Is Wearing a Mask?][0]   [Dr Julian Tag][ajt] cited the articles listed below. 
+In the video  [How Well Do Face Masks Protect us from COVID-19 Infection? By How Much Is the Risk Reduced if Only One Person Is Wearing a Mask?][0]   [Dr Julian Tang][ajt] cited the articles listed below. 
 
 |  Articles  |
 |  :----|
