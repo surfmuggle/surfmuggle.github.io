@@ -1,7 +1,7 @@
          
-**Langversion - Vorgeschichte Nazi-Deutschland**
+## Langversion - Vorgeschichte Nazi-Deutschland
 
-Laut [Machteroberung 1933 | bpb.de](https://www.bpb.de/shop/zeitschriften/izpb/137194/machteroberung-1933/) wird Hitler 30. Januar 1933 zum Kanzler ernannt. Dies war bereits vor den Wahlen am 5. März 1933. Der Autor schreibt
+Laut [Machteroberung 1933](https://www.bpb.de/shop/zeitschriften/izpb/137194/machteroberung-1933/) wird Hitler 30. Januar 1933 zum Kanzler ernannt. Dies war bereits vor den Wahlen am 5. März 1933. Der Autor schreibt
 
 > _Formal war die Ernennung Hitlers_  (zum Kanzler) _durchaus legal, aber der Verfassung der ersten deutschen Republik entsprach sie keineswegs. Schon in den Jahren zuvor war die Verfassung durch die Praxis der Präsidialkabinette, die nur mit der Notverordnungsautorität des Reichspräsidenten regierten, unterhählt und de facto außer Kraft gesetzt. Das gewählte Parlament war seither von den politischen Entscheidungen ausgeschlossen; die Weimarer Republik hatte sich schon vor der Regierungsäbernahme Hitlers von einer parlamentarischen Demokratie immer mehr entfernt._ 
 
@@ -23,7 +23,7 @@ Laut [historisches-lexikon-bayerns.de](https://www.historisches-lexikon-bayerns.
 
 > _Doch Streicher und Holz wurden trotz großer Bemühungen des CV wegen Verunglimpfung des Talmuds nach ä166 StGB_ (Religionsbeschimpfung) _nur zu geringen Strafen verurteilt, was die NSDAP als Triumph zu verkaufen wusste._
 
-**Konvention der Menschenrechte** 
+## Konvention der Menschenrechte
 
 In der Konvention der Menschenrechte steht u.a. in Artikel 3
 
