@@ -5,7 +5,7 @@ Laut [Machteroberung 1933](https://www.bpb.de/shop/zeitschriften/izpb/137194/mac
 
 > _Formal war die Ernennung Hitlers_  (zum Kanzler) _durchaus legal, aber der Verfassung der ersten deutschen Republik entsprach sie keineswegs. Schon in den Jahren zuvor war die Verfassung durch die Praxis der Präsidialkabinette, die nur mit der Notverordnungsautorität des Reichspräsidenten regierten, unterhählt und de facto außer Kraft gesetzt. Das gewählte Parlament war seither von den politischen Entscheidungen ausgeschlossen; die Weimarer Republik hatte sich schon vor der Regierungsäbernahme Hitlers von einer parlamentarischen Demokratie immer mehr entfernt._ 
 
-Die Bundeszentrale für politische Bildung ([bpb.de](http://bpb.de)) schreibt im Artikel [1933-1945: Verdrängung und Vernichtung | bpb.de](https://www.bpb.de/shop/zeitschriften/izpb/7687/1933-1945-verdraengung-und-vernichtung/) dass Hitler 1933 "_fast die Hälfte der deutschen Wählerinnen und Wähler"_ gewonnen hatte. Laut bpb war es nicht in erster Linie der Antisemitismus, sondern die _Agitation gegen den "Versailler Schandfrieden"_.  
+Die Bundeszentrale für politische Bildung ([bpb.de](http://bpb.de)) schreibt im Artikel [1933-1945 Verdrängung und Vernichtung](https://www.bpb.de/shop/zeitschriften/izpb/7687/1933-1945-verdraengung-und-vernichtung/) dass Hitler 1933 "_fast die Hälfte der deutschen Wählerinnen und Wähler"_ gewonnen hatte. Laut bpb war es nicht in erster Linie der Antisemitismus, sondern die _Agitation gegen den "Versailler Schandfrieden"_.  
 
 [Agitation](https://www.dwds.de/wb/Agitation) ist der
 
