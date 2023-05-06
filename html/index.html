@@ -14,38 +14,55 @@
     line-item-price::after { content: " €"; color: red; }
   </style>
   <script>
-  function increasePrice(){
-    var before = document.querySelector('#before')
-    var after = document.querySelector('#after')
-    let price = before.querySelector("line-item-price").innerText
-    let qty = before.querySelector("input").value
-    after.querySelector("line-item-price").innerText = (price * 2);
-    after.querySelector("input").value = (qty * 2);
-  }
-  class LineItem extends HTMLDivElement 
-  {
-    constructor()
-    {
-      // Always call super first in constructor
-      super();
-      // write element functionality in here
-    }
-  }
-  class LineItemName extends HTMLSpanElement{ constructor() { super(); } }
-  class LineItemPrice extends HTMLSpanElement{ constructor() { super(); } }
-  class LineItemQty extends HTMLSpanElement{ constructor() { super(); } }
-  // class LineItemTxt extends HTMLInputElement{ constructor() { super(); } }    
+function increasePrice(){
+  var lineItems = []
+  var lineItemNodeList = document.querySelectorAll('section#before line-item')
+  console.log('lineItemNodeList', lineItemNodeList);
+  lineItemNodeList.forEach(node => {
+     lineItems.push({
+       "price": node.querySelector("line-item-price").innerText,
+       "qty": node.querySelector("input").value
+     })
+  })
+  console.table(lineItems)
+  var lineItemNodeListAfter = document.querySelectorAll('section#after line-item')
+  var index = 0;
+  lineItemNodeListAfter.forEach( node => {    
+     node.querySelector("line-item-price").innerText = (lineItems[index].price * 2);      node.querySelector("input").value = (lineItems[index].qty * 2);
+     index++;
+  });
 
-  customElements.define("line-item", LineItem);
-  customElements.define("line-item-name", LineItemName);
-  customElements.define("line-item-price", LineItemPrice);
-  customElements.define("line-item-qty", LineItemQty);
-  // customElements.define("line-item-txt", LineItemTxt);
+
+}
+class LineItem extends HTMLDivElement 
+{
+  constructor()
+  {
+         // Always call super first in constructor
+    super();
+         // write element functionality in here
+   }
+}
+class LineItemName extends HTMLElement{ constructor() { super(); } }
+class LineItemPrice extends HTMLElement{ constructor() { super(); } }
+
+
+class LineItemQty extends HTMLElement{ constructor() { super(); } }
+
+
+// class LineItemTxt extends HTMLInputElement{ constructor() { super(); } }    
+
+customElements.define("line-item", LineItem);
+customElements.define("line-item-name", LineItemName);
+customElements.define("line-item-price", LineItemPrice);
+customElements.define("line-item-qty", LineItemQty);
+// customElements.define("line-item-txt", LineItemTxt);
   </script>
 </head>
 <body>
 <h2>Cart List before price increase</h2>
-<line-item id="before">
+<section id="before">
+<line-item data-id="before-1">
  <line-item-name>Super Gum</line-item-name>
  <line-item-price>15</line-item-price>
  <line-item-qty>
@@ -53,14 +70,32 @@
  </line-item-qty>
  <button onclick='increasePrice()'>increase price</button>
 </line-item>
+<line-item data-id="before-2">
+ <line-item-name>PowerChoc</line-item-name>
+ <line-item-price>10</line-item-price>
+ <line-item-qty>
+      <input type='number' value='6' size=1>
+ </line-item-qty>
+ <button onclick='increasePrice()'>increase price</button>
+</line-item>
+</section>
 
+<section id="after">
 <h2>Cart List after price increase</h2>
-<line-item id="after">
+<line-item data-id="after-1">
  <line-item-name>Super Gum</line-item-name>
  <line-item-price></line-item-price>
  <line-item-qty>
       <input type='number' size=1 disabled>
  </line-item-qty>
 </line-item>
+<line-item data-id="after-2">
+ <line-item-name>Power Choc</line-item-name>
+ <line-item-price></line-item-price>
+ <line-item-qty>
+      <input type='number' size=1 disabled>
+ </line-item-qty>
+</line-item>
+</section>
 </body>
 </html>
