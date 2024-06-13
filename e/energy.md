@@ -12,3 +12,10 @@ From [smard.de - wholesale prices](https://www.smard.de/page/en/wiki-article/588
 
 
 <img src="electricity_prices.png"/>
+
+
+### Electricity generation installed capacity
+
+From [smard.de / market data](https://www.smard.de/page/en/marktdaten/78?marketDataAttributes=%7B%22resolution%22:%22year%22,%22region%22:%22DE%22,%22from%22:1420066800000,%22to%22:1705273199999,%22moduleIds%22:%5B3000186,3000187,3000188,3000189,3000190,3000194,3000195,3000196,3000197,3000198,3000199,3000207,3003792,3004076,3004073,3004072,3004075,3004074%5D,%22selectedCategory%22:3,%22activeChart%22:true,%22style%22:%22color%22,%22categoriesModuleOrder%22:%7B%7D%7D) was this taken
+
+<img src="electricity_generation_installed_capacity.png"/>
