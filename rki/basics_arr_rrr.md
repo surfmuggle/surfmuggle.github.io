@@ -208,4 +208,78 @@ So, the 95% confidence interval for NNT would be from **6.67 to 20**, meaning th
 
 ---
 
-Let me know if you need further clarification!
+# 95% versus 99%
+For a confidence intervall what are the reasons or conditions to pick 99% instead of 95%
+
+## Choosing 99% 
+
+Choosing a 99% confidence interval instead of a 95% confidence interval generally depends on several factors related to the level of certainty you need in your conclusions. Here are the primary reasons or conditions to pick a 99% confidence interval over a 95% one:
+
+### 1. **Need for Higher Certainty**
+   - A 99% confidence interval offers greater certainty that the population parameter lies within the interval. If making a wrong conclusion has significant consequences, a higher confidence level can provide more assurance. For example, in medical research, drug approval, or safety testing, where the cost of making an incorrect decision can be very high, you might prefer a 99% confidence interval.
+
+### 2. **Risk of Type I Error (False Positive)**
+   - A 99% confidence interval reduces the chance of a Type I error (rejecting a true null hypothesis) compared to a 95% confidence interval. In critical scenarios where the cost of a false positive is high, you would want to minimize the risk of incorrectly concluding that an effect exists when it doesn't.
+
+### 3. **Smaller Margins of Error Are Risky**
+   - A 95% confidence interval has a smaller range, but this also increases the risk of excluding the true population parameter. In cases where excluding the true parameter would be problematic (e.g., financial forecasting, manufacturing tolerances), you might choose a 99% confidence interval to ensure the true value is more likely included.
+
+### 4. **Data Variability**
+   - If your data is highly variable or noisy, you might prefer a higher confidence level to account for that variability and provide a more conservative estimate.
+
+### 5. **Regulatory or Industry Standards**
+   - Certain industries or regulatory bodies may require a 99% confidence interval. For example, in fields like aviation, pharmaceuticals, or environmental studies, stricter standards might dictate the use of higher confidence intervals to ensure public safety or compliance.
+
+### Trade-offs
+- **Wider Interval**: A 99% confidence interval will be wider than a 95% confidence interval. This means that while you're more confident, the estimate is less precise. You’re trading off precision for certainty.
+- **More Data Required**: To achieve a narrower confidence interval at 99%, you would typically need a larger sample size.
+
+In summary, you would choose a 99% confidence interval over a 95% interval when the need for certainty outweighs the desire for precision, especially in situations where the cost of errors is high.
+
+# Sample and number needed to treat
+For a sample size of 2500 persons in the intervention group and 2500 in the control group. The occurence in intervention is 150 and in control is 200
+## Calculate ARR for the intervention group
+
+Let's calculate both the **absolute risk reduction (ARR)** and the **number needed to treat (NNT)** based on the information you provided.
+
+### 1. **Absolute Risk (AR) in Each Group**
+
+The absolute risk (AR) is the proportion of people who experience the event in each group:
+
+- **Absolute Risk in the Intervention Group (AR₁)**:
+  \[
+  AR₁ = \frac{150}{2500} = 0.06 \, (6\%)
+  \]
+
+- **Absolute Risk in the Control Group (AR₀)**:
+  \[
+  AR₀ = \frac{200}{2500} = 0.08 \, (8\%)
+  \]
+
+### 2. **Absolute Risk Reduction (ARR)**
+
+The **absolute risk reduction (ARR)** is the difference in the absolute risk between the control group and the intervention group:
+
+\[
+ARR = AR₀ - AR₁ = 0.08 - 0.06 = 0.02 \, (2\%)
+\]
+
+This means the intervention reduces the risk of the event by 2 percentage points.
+
+### 3. **Number Needed to Treat (NNT)**
+
+The **number needed to treat (NNT)** is the number of people who need to receive the intervention to prevent one additional occurrence of the event. It is calculated as the inverse of the ARR:
+
+\[
+NNT = \frac{1}{ARR} = \frac{1}{0.02} = 50
+\]
+
+### Interpretation:
+
+- **Absolute Risk Reduction (ARR)**: The intervention decreases the risk of the event by 2%.
+- **Number Needed to Treat (NNT)**: You would need to treat 50 people with the intervention to prevent one additional occurrence of the event compared to the control group.
+
+Would you like more details or further calculations on this?
+
+
+
