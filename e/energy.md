@@ -22,6 +22,9 @@ From [smard.de - wholesale prices](https://www.smard.de/page/en/wiki-article/588
 
 <img src="smard_de_electricity_price_2024-08-14.png" />
 
+**Prices November 2024**
+
+<img src="smard_de_electricity_price_2024-11-06.png" />
 
 ### Electricity generation installed capacity
 
