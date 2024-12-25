@@ -9,6 +9,11 @@ Prof. Dr. Krötz berichtet in [Dysfunktionale Grundschulen, hilflose Eltern, Aus
  - [Mathematikschulbuchvergleich (Zuschrift Dresden)](https://drive.google.com/file/d/1cBH6wLq6mpX5tSwd5RRn1kC0qhxZv2_M/view?usp=sharing)
  - [Staatliche oder private Schule? Besuch an der Leibniz Privatschule zu Elmshorn und Kaltenkirchen](https://drive.google.com/file/d/1q70K97owOBWjRLuDTZZDq6Cmo1OvP9L9/view?usp=sharing) mit Verweis auf einen Artikel Augsburger Zeitung - Smartphone bitte nicht fürs Kind.
 
+### Mathebücher 
+ - [Mathematiklehrbücher](https://mathematikalpha.de/mathematikschulbuecher)
+ - [Dr. Joachim Paul Webseite](http://www.vordenker.de/) und [Anfrage 21 der Piraten zu Bertelsmann](https://www.vordenker.de/blog/1658/)
+
+
 ## Speech to Text
 
 ### Speech to text with Lamafile
