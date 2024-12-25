@@ -1,4 +1,14 @@
 
+## Edu
+
+
+### Dysfunktionale Grundschulen, hilflose Eltern, Auswege
+Prof. Dr. Krötz berichtet in [Dysfunktionale Grundschulen, hilflose Eltern, Auswege](https://www.youtube.com/watch?v=QtIOXoVSp_o)
+ - [Dumbing us down](https://archive.org/details/DumbingUsDown-TheHiddenAgendaOfCompulsoryEducation/page/n21/mode/2up) und andere Werke bei [Gatto](https://archive.org/search?query=creator%3A%22JOHN+TAYLOR+GATTO%22)
+ - [Bericht aus eine Kleinstadtgrundschule in NRW](https://drive.google.com/file/d/1hMbMcxTvNFZ2jXHDVJYTC3zqENw6wd0d/view?usp=sharing)
+ - [Mathematikschulbuchvergleich (Zuschrift Dresden)](https://drive.google.com/file/d/1cBH6wLq6mpX5tSwd5RRn1kC0qhxZv2_M/view?usp=sharing)
+ - [Staatliche oder private Schule? Besuch an der Leibniz Privatschule zu Elmshorn und Kaltenkirchen](https://drive.google.com/file/d/1q70K97owOBWjRLuDTZZDq6Cmo1OvP9L9/view?usp=sharing) mit Verweis auf einen Artikel Augsburger Zeitung - Smartphone bitte nicht fürs Kind.
+
 ## Speech to Text
 
 ### Speech to text with Lamafile
