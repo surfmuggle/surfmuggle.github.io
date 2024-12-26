@@ -18,6 +18,27 @@ Prof. Dr. Krötz berichtet in [Dysfunktionale Grundschulen, hilflose Eltern, Aus
   - [lehramts algebra - leer](https://schule-mathematik.blogspot.com/2023/05/lehramtsalgebra.html)
  - [indien-strebt-an-die-weltspitze-deutschland-davon-weg](https://deutsche-wirtschafts-nachrichten.de/703016/indien-strebt-an-die-weltspitze-deutschland-davon-weg)
 
+### Binomische Formeln 
+Referenz zum alten Schulbuch am Ende des Vortrags:
+
+- [Barth/Federle/Haller: Algebra 1 (ISBN 3-431-02644-3) 1. Auflage 1986](https://www.booklooker.de/B%C3%BCcher/Friedrich-Barth+Algebra-7-Jahrgangsstufe/id/A02Cor0601ZZq)
+
+Beispiel Aufgabe 42
+
+> Die eine Seite eines Rechtecks ist um 5cm größer als die andere. Die Fläche ist um 64 cm² kleiner als die Fläche eines Quadrats, dessen Seite um 4cm größer als die kleinere Rechteckseite ist.
+> Berechne die Seiten des Rechtecks.
+
+Beispiel Aufgabe 43
+
+> Wenn in einem Quadrat die eine Seite um 2cm verkleinert und die andere um ebensoviel vergrößert wird, so erhählt man ein ebenso großes Rechteck wie bei Verkürzung der einen Seite um 4 cm und Verlängerung der anderen Seite um 10 cm.
+> Wie groß ist die Quadratseite?
+
+Weitere tolle Bücher von Barth und Co.
+ - Anschauliche Geometrie (1- 4),
+ - Anschauliche analytische Geometrie, Stochastik sowie
+ - [Analysis Anschaulich I&II als freies PDF](https://eumenides.de)
+
+
 
 ### Mathebücher 
  - [Mathematiklehrbücher](https://mathematikalpha.de/mathematikschulbuecher)
