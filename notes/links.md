@@ -11,6 +11,8 @@ Prof. Dr. Krötz berichtet in [Dysfunktionale Grundschulen, hilflose Eltern, Aus
 
 ### Mathebücher 
  - [Mathematiklehrbücher](https://mathematikalpha.de/mathematikschulbuecher)
+
+### Bertelsmann und Piraten
  - [Dr. Joachim Paul Webseite](http://www.vordenker.de/) und [Anfrage 21 der Piraten zu Bertelsmann](https://www.vordenker.de/blog/1658/)
 
 
