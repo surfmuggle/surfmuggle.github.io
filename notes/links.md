@@ -1,13 +1,23 @@
 
 ## Edu
 
-
 ### Dysfunktionale Grundschulen, hilflose Eltern, Auswege
 Prof. Dr. Krötz berichtet in [Dysfunktionale Grundschulen, hilflose Eltern, Auswege](https://www.youtube.com/watch?v=QtIOXoVSp_o)
  - [Dumbing us down](https://archive.org/details/DumbingUsDown-TheHiddenAgendaOfCompulsoryEducation/page/n21/mode/2up) und andere Werke bei [Gatto](https://archive.org/search?query=creator%3A%22JOHN+TAYLOR+GATTO%22)
  - [Bericht aus eine Kleinstadtgrundschule in NRW](https://drive.google.com/file/d/1hMbMcxTvNFZ2jXHDVJYTC3zqENw6wd0d/view?usp=sharing)
  - [Mathematikschulbuchvergleich (Zuschrift Dresden)](https://drive.google.com/file/d/1cBH6wLq6mpX5tSwd5RRn1kC0qhxZv2_M/view?usp=sharing)
  - [Staatliche oder private Schule? Besuch an der Leibniz Privatschule zu Elmshorn und Kaltenkirchen](https://drive.google.com/file/d/1q70K97owOBWjRLuDTZZDq6Cmo1OvP9L9/view?usp=sharing) mit Verweis auf einen Artikel Augsburger Zeitung - Smartphone bitte nicht fürs Kind.
+
+### Interludium: Drei Gruselgeschichten aus der Schule
+ - http://www.franzreinholddiepenbrock.de/
+ - [Zuschauerückmeldungen zum Beitrag:](https://drive.google.com/file//1SRJ5LuyfM57BMvxtun5wne860njxf4r4/view)
+ - [Josef Kraus über Kompetenzsimulationskompetenz:]()
+ - Belege für mathematikdidaktische Hochkompetenz
+  - [wie man algebra unterrichtet - leer](https://schule-mathematik.blogspot.com/2023/04/wie-man-algebra-unterrichtet.html)
+  - [mathematikdidaktik-als-wissenschaft - leer](https://schule-mathematik.blogspot.com/2023/04/mathematikdidaktik-als-wissenschaft.html)
+  - [lehramts algebra - leer](https://schule-mathematik.blogspot.com/2023/05/lehramtsalgebra.html)
+ - [indien-strebt-an-die-weltspitze-deutschland-davon-weg](https://deutsche-wirtschafts-nachrichten.de/703016/indien-strebt-an-die-weltspitze-deutschland-davon-weg)
+
 
 ### Mathebücher 
  - [Mathematiklehrbücher](https://mathematikalpha.de/mathematikschulbuecher)
