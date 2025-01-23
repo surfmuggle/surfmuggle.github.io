@@ -56,3 +56,7 @@ The number of hours when prices are below EUR 5 /MWh are increasing due to the f
 This graph shows the development of end consumer prices for gas indexed according to the national consumer price index in Switzerland. The basis is the prices in December 2020 (=100) [source](https://www.energiedashboard.admin.ch/preise/gas)
 
 <img src="Gas_prices_Switzerland_Index.png"/>
+
+## Strategy to buy gas
+
+ - [Strategien für die Bewirtschaftung von Gasspeichern durch Trading Hub Europe](https://www.bundesnetzagentur.de/DE/Gasversorgung/Krisenvorbereitung/Download/Gutachten_Speicherstrategie.pdf?__blob=publicationFile&v=1)
