@@ -60,3 +60,9 @@ This graph shows the development of end consumer prices for gas indexed accordin
 ## Strategy to buy gas
 
  - [Strategien für die Bewirtschaftung von Gasspeichern durch Trading Hub Europe](https://www.bundesnetzagentur.de/DE/Gasversorgung/Krisenvorbereitung/Download/Gutachten_Speicherstrategie.pdf?__blob=publicationFile&v=1)
+
+# Power plants
+[List of power plants](https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/Versorgungssicherheit/Erzeugungskapazitaeten/Kraftwerksliste/start.html)
+[Grid subsidies](https://www.bundesregierung.de/breg-de/aktuelles/bundeszuschuss-netzengelt-2323374)
+[power consumption Q4 2022](https://www.smard.de/page/home/topic-article/444/209816)
+[government news](https://www.bundesregierung.de/breg-en/news)
