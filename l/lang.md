@@ -1,5 +1,5 @@
 
-- [This taht these those](https://www.youtube.com/@jayfujiwara/shorts)
+
 
 ### Why Use Stories: Presentation by Beniko Mason
 
@@ -8,3 +8,11 @@
  - [youtube channel story listening](https://www.youtube.com/@story-listening-GSSR)
  
  - [Story listening net](https://www.story-listening.net) a virtual hub for language teachers, hosted by Dr. Beniko Mason 
+
+
+### Random stuff
+
+- [This that these those](https://www.youtube.com/@jayfujiwara/shorts) youtube shorts
+- Anki Decks
+  - [HP & SS](https://ankiweb.net/shared/info/2086452605) eng + audio
+  - [HP & CoS](https://ankiweb.net/shared/info/399787685) eng + audio
