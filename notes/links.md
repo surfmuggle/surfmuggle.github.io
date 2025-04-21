@@ -1,4 +1,11 @@
+## Manipulation
 
+ - [Manipulation - und wie man ihr entkommt, Teil 1/6, - Die stärksten Mittel der Beeinflussung - ZDF 1979](https://www.youtube.com/watch?v=VjpzrAc2qJ4)
+ - [Manipulation - Die geistige Beeinflussung](https://www.youtube.com/watch?v=wrsr8MfrMbk)
+ - [3/6](https://www.youtube.com/watch?v=rxlheWCGRxw)
+ - [4/6](https://www.youtube.com/watch?v=-kaGaxJS-mI)
+ - [5/6](https://www.youtube.com/watch?v=KH4t90YUdqc)
+ - [5/6](https://www.youtube.com/watch?v=94TxqIUS3KI)
 ## Edu
 
 ### Dysfunktionale Grundschulen, hilflose Eltern, Auswege
