@@ -15,8 +15,8 @@ Below is a **clear, practical comparison** of the four major lightweight markup 
 This should help you pick the right one for your environment.
 
 ---
-
-# 🟦 1. **High-Level Comparison Table**
+# Comparison
+## 🟦 1. **High-Level Comparison Table**
 
 | Feature / Language        | **Markdown**              | **Creole**           | **reStructuredText (RST)** | **Textile**          |
 | ------------------------- | ------------------------- | -------------------- | -------------------------- | -------------------- |
@@ -30,7 +30,75 @@ This should help you pick the right one for your environment.
 | Use cases today           | 95% of dev docs           | Some wikis           | Python docs, Sphinx        | Legacy systems       |
 | Long-term viability       | **Excellent**             | Low                  | Good (niche)               | Very low             |
 
----
+## Feature comparison
+
+Here is the comparison in a single clean table.
+Legend:
+
+* **++** = Strong support
+* **+** = Good
+* **o** = Medium / partial
+* **–** = Bad
+* **––** = Very bad / none
+
+
+
+| **Feature**                              | **Markdown**            | **reStructuredText** | **Creole**             | **Textile**           |
+| ---------------------------------------- | ----------------------- | -------------------- | ---------------------- | --------------------- |
+| **Table Complexity**                     | +                       | ++                   | ––                     | –                     |
+| **Diagram Support (Mermaid / PlantUML)** | ++                      | +                    | –                      | –                     |
+| **Editor Availability**                  | ++                      | o                    | –                      | ––                    |
+| **WYSIWYG / WYSIWYM Editing**            | +                       | o                    | –                      | ––                    |
+| **Side Comments / Margin Notes**         | o                       | o                    | ––                     | ––                    |
+| **Math / LaTeX Support**                 | + (via extensions)      | ++ (native Sphinx)   | –                      | –                     |
+| **Cross-Referencing (internal links)**   | o                       | ++                   | –                      | –                     |
+| **TOC Generation (auto)**                | o                       | ++                   | –                      | –                     |
+| **Admonitions / Callouts**               | + (via extensions)      | ++ (native)          | –                      | –                     |
+| **Code Blocks / Syntax Highlighting**    | ++                      | ++                   | –                      | o                     |
+| **Extensibility / Plugins**              | ++                      | +                    | –                      | –                     |
+| **Standardization / Stability**          | o (fragmented dialects) | ++ (strict & stable) | + (simple, fixed spec) | –– (mostly abandoned) |
+| **Git-Friendliness**                     | ++                      | ++                   | +                      | o                     |
+| **Learning Curve**                       | ++ (easy)               | – (complex)          | + (easy)               | + (medium)            |
+| **Long-term Viability**                  | ++                      | +                    | –                      | ––                    |
+
+--------------------------------------------------
+
+
+## 🔍 **Feature Clarifications**
+
+### **Math / LaTeX**
+
+* Markdown: supported via MathJax, KaTeX, Pandoc, Jupyter, MkDocs Material
+* rST: native support in Sphinx via `:math:` and `.. math::`
+
+### **Cross-Referencing**
+
+* rST has **semantic references**, e.g. `:ref:` targets that remain consistent even if titles change.
+* Markdown requires plugins; links break easily.
+
+### **TOCs**
+
+* Markdown: plugins required (MkDocs, GitHub auto-TOC limited)
+* rST: built-in `.. toctree::` with multi-file support
+
+### **Admonitions**
+
+Examples like “Note”, “Warning”, “Tip”:
+
+* Markdown: via extensions (MkDocs, GitHub limited)
+* rST: native syntax `.. note::`, `.. warning::`
+
+### **Extensibility**
+
+* Markdown: huge ecosystem (Obsidian plugins, Pandoc filters, MkDocs plugins)
+* rST: many Sphinx extensions, smaller ecosystem
+* Creole/Textile: minimal
+
+### **Side Comments / Margin Notes**
+
+Name in publishing: **marginalia**, **margin notes**, **side notes**, **annotations**.
+Support depends on **renderers**, not languages.
+
 
 # 🟦 2. **Markdown**
 
