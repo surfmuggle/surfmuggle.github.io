@@ -129,6 +129,66 @@ Wenn du willst, mache ich dir auch:
 * oder Übungssätze zum Übersetzen 📘
 
 
+# Beispiele für o- und konsonantische-Deklination
+Wie lernt man wann die o-Deklinaton und wann die konsonantische Deklination verwendet wird. Erkläre für diese Wörter und erstelle eine Tabelle
+Ablativ Plural von crimen, criminis 2 Ablativ Singular von servus, -i 3 Ablativ Plural von filia, -ae 4 Ablativ Singular von frater, fratris 5 Ablativ Singular von fortuna, -ae 6 Ablativ Plural von gaudium, -i 7 Ablativ Plural von monumentum, -i
+
+Gerne 😊
+Wir bilden **alle Personen im Singular und Plural** mit **„Bett = lectum“** und passen das **Possessivpronomen** korrekt an.
+
+**Ausgangssatz:**
+**Nocte in lectō dormiō.**
+→ *Ich schlafe nachts / in der Nacht in meinem Bett.*
+
+---
+
+## Wichtige Grammatik vorab (kurz)
+
+* **nocte** = Ablativ Singular („in der Nacht“)
+* **in lectō** = Ablativ Singular („in dem Bett“)
+* **lectō meō / tuō / suō …** = „in meinem / deinem / seinem … Bett“
+* **dormire** = schlafen
+
+  * dormiō, dormīs, dormit, dormīmus, dormītis, dormiunt
+
+---
+
+## Tabelle: **Singular (ein Bett)**
+
+| Person            | Latein                         | Deutsch                            |
+| ----------------- | ------------------------------ | ---------------------------------- |
+| 1. Pers. Sg.      | **Nocte in lectō meō dormiō.** | Ich schlafe nachts in meinem Bett. |
+| 2. Pers. Sg.      | **Nocte in lectō tuō dormīs.** | Du schläfst nachts in deinem Bett. |
+| 3. Pers. Sg. (m.) | **Nocte in lectō suō dormit.** | Er schläft nachts in seinem Bett.  |
+| 3. Pers. Sg. (f.) | **Nocte in lectō suō dormit.** | Sie schläft nachts in ihrem Bett.  |
+| 3. Pers. Sg. (n.) | **Nocte in lectō suō dormit.** | Es schläft nachts in seinem Bett.  |
+
+---
+
+## Tabelle: **Plural (jeweils im eigenen Bett)**
+
+| Person            | Latein                              | Deutsch                              |
+| ----------------- | ----------------------------------- | ------------------------------------ |
+| 1. Pers. Pl.      | **Nocte in lectō nostrō dormīmus.** | Wir schlafen nachts in unserem Bett. |
+| 2. Pers. Pl.      | **Nocte in lectō vestrō dormītis.** | Ihr schlaft nachts in eurem Bett.    |
+| 3. Pers. Pl. (m.) | **Nocte in lectō suō dormiunt.**    | Sie schlafen nachts in ihrem Bett.   |
+| 3. Pers. Pl. (f.) | **Nocte in lectō suō dormiunt.**    | Sie schlafen nachts in ihrem Bett.   |
+| 3. Pers. Pl. (n.) | **Nocte in lectō suō dormiunt.**    | Sie schlafen nachts in ihrem Bett.   |
+
+---
+
+## Merkhilfe 🧠
+
+* **in + Ablativ** → Ort, wo?
+* **suus** bezieht sich immer auf das **Subjekt**
+* Latein braucht das Possessiv oft **nicht**, Deutsch fast immer
+
+Wenn du willst, mache ich dir auch:
+
+* eine Version **ohne Possessivpronomen**
+* eine Tabelle mit **lectīs** (in den Betten)
+* oder Übungssätze zum Übersetzen 📘
+
 
 
 
