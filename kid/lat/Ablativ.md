@@ -189,6 +189,38 @@ Wenn du willst, mache ich dir auch:
 * eine Tabelle mit **lectīs** (in den Betten)
 * oder Übungssätze zum Übersetzen 📘
 
+## Tabelle
+
+Hier ist die **Übersichtstabelle mit den korrekten Ablativ-Formen** 😊
+(inklusive kurzer Kontrolle der Deklination)
+
+---
+
+### Tabelle: Ablativ-Formen
+
+| Wort (Nominativ + Genitiv) | Deklination          | Gefragte Form        | Lösung         |
+| -------------------------- | -------------------- | -------------------- | -------------- |
+| **crīmen, crīminis**       | 3. Dekl., Neutrum    | Ablativ **Plural**   | **crīminibus** |
+| **servus, -ī**             | 2. Dekl., Maskulinum | Ablativ **Singular** | **servō**      |
+| **fīlia, -ae**             | 1. Dekl., Femininum  | Ablativ **Plural**   | **fīliīs**     |
+| **frāter, frātris**        | 3. Dekl., Maskulinum | Ablativ **Singular** | **frātre**     |
+| **fortūna, -ae**           | 1. Dekl., Femininum  | Ablativ **Singular** | **fortūnā**    |
+| **gaudium, -ī**            | 2. Dekl., Neutrum    | Ablativ **Plural**   | **gaudiīs**    |
+| **monūmentum, -ī**         | 2. Dekl., Neutrum    | Ablativ **Plural**   | **monūmentīs** |
+
+---
+
+### Mini-Merkhilfe 🧠
+
+* **1. Dekl.:** Abl. Sg. **-ā**, Abl. Pl. **-īs**
+* **2. Dekl.:** Abl. Sg. **-ō**, Abl. Pl. **-īs**
+* **3. Dekl.:** Abl. Sg. **-e**, Abl. Pl. **-ibus**
+
+Wenn du möchtest, kann ich:
+
+* dir eine **Übung ohne Lösungen** machen
+* die Formen **begründen lassen** (Lernkontrolle)
+* oder eine **komplette Ablativ-Übersicht** erstellen 📘
 
 
 
